@@ -18,3 +18,7 @@ h2 {
     background-attachment: fixed;
     background-position: 0;
 }
+
+.navbar-nav {
+    font-family: 'Poppins', sans-serif;
+}
