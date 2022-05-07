@@ -58,6 +58,11 @@ h2 {
     background-color: #eaaa76;
 }
 
+.eduex {
+    background-color: #e27743;
+    font-weight: bold;
+}
+
 
 /* skills */
 
@@ -80,6 +85,11 @@ h2 {
     background-color: #eaaa76;
 }
 
+.prj {
+    background-color: #e27743;
+    font-weight: bold;
+}
+
 
 /* end */
 
@@ -88,6 +98,11 @@ h2 {
 
 #testimonials {
     background-color: #eaaa76;
+}
+
+.tst {
+    background-color: #e27743;
+    font-weight: bold;
 }
 
 .cpics {
@@ -114,6 +129,11 @@ h2 {
 
 #contact {
     background-color: #eaaa76;
+}
+
+.cnt {
+    background-color: #e27743;
+    font-weight: bold;
 }
 
 
