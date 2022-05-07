@@ -24,7 +24,7 @@
 <body>
     <!-- my navbar -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top" id="sideNav">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top" id="topNav">
         <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top"></a> -->
         <span class="d-block d-lg-none">Philani's Profile</span>
         <span class="d-none d-lg-block"></span>
@@ -50,8 +50,22 @@
     </section>
     <section class="py-5 vh-100" id="about">
         <div class="container h-100">
-
-        </div>
+            <h3 class="section-heading lead text-center">About Me</h3>
+            <h6>Philani Mxathule, 23</h6>
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="img-fluid" src="/images/Philani.JPG" alt="" />
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-6">personal info</div>
+                        <div class="col-md-6">personal info</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">Achievements</div>
+                        <div class="col-md-6">Achievements</div>
+                    </div>
+                </div>
     </section>
     <section class="py-5 vh-100" id="skills">
         <div class="container h-100">
@@ -68,8 +82,46 @@
 
         </div>
     </section>
-    <section id="testimonials">
-        <div class="container h-100">
+    <section class="py-5 vh-100" id="testimonials">
+        <div class="container d-flex justify-content-center align-items-center flex-column h-100">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="/images/Godwin.JPG" class="d-block w-30" alt="photo">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Godwin Dzvapatsva</h5>
+                            <p>content.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000">
+                        <img src="/images/Silizwe (2).JPG" class="d-block w-25" alt="photo">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Siliziwe Pani</h5>
+                            <p>content.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/Sibongile (2).JPG" class="d-block w-25" alt="photo">
+                        <div class="carousel-caption d-none d-md-block rounded-circle">
+                            <h5>Sibongile Rwayi</h5>
+                            <p>content.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
     </section>
     <section class="py-5 vh-100" id="contact me">
