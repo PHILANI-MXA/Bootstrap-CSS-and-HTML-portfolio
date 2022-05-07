@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
+/* Home & Nav */
+
 h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 64px;
@@ -12,30 +15,106 @@ h2 {
 }
 
 #landing {
-    background: /* top, transparent red, faked with gradient */
-    linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), /* bottom, image */
-    url(/images/Background\ cover\ image.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(/images/Background\ cover\ image.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: 0;
 }
 
+
+/* nav */
+
 .navbar-nav {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    color: black;
+    font-size: 25px;
 }
+
+
+/* End */
+
+
+/* end */
+
+
+/* about */
 
 #about {
-    background-color: rgba(191, 90, 47, 0.111);
+    background-color: #eaaa76;
 }
+
+.abt {
+    background-color: #e27743;
+    font-weight: bold;
+}
+
+
+/* end */
+
+
+/* education */
+
+#education {
+    background-color: #eaaa76;
+}
+
+
+/* skills */
+
+#skills {
+    background-color: #eaaa76;
+}
+
+.skl {
+    background-color: #e27743;
+    font-weight: bold;
+}
+
+
+/* end */
+
+
+/* projects */
+
+#projects {
+    background-color: #eaaa76;
+}
+
+
+/* end */
+
+
+/* Testimonials */
 
 #testimonials {
-    background-color: rgb(248, 237, 232);
+    background-color: #eaaa76;
 }
 
-img {
+.cpics {
+    width: 40%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: 0px 0px;
+}
+
+#carouselpg {
+    align-items: center;
+    justify-items: center;
     height: 60%;
     width: 60%;
     border-radius: 50%;
 }
+
+
+/* end */
+
+
+/* contact me */
+
+#contact {
+    background-color: #eaaa76;
+}
+
+
+/* end */
