@@ -1,3 +1,15 @@
+@media only screen and (max-width: 700px) {
+    body {
+        background-attachment: fixed;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
 
 /* Home & Nav */
@@ -17,8 +29,9 @@ h2 {
 #landing {
     background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(/images/Background\ cover\ image.jpg);
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed !important;
     background-position: 0;
+    object-fit: cover;
 }
 
 
@@ -46,6 +59,17 @@ h2 {
 .abt {
     background-color: #e27743;
     font-weight: bold;
+    box-shadow: 0 0px 10px;
+    border-radius: 0%;
+}
+
+.txtabt {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #e27743 !important;
+    box-shadow: 0 0px 10px;
+    border-radius: 0%;
 }
 
 
@@ -61,6 +85,8 @@ h2 {
 .eduex {
     background-color: #e27743;
     font-weight: bold;
+    box-shadow: 0 0px 10px;
+    border-radius: 0%;
 }
 
 
@@ -73,6 +99,8 @@ h2 {
 .skl {
     background-color: #e27743;
     font-weight: bold;
+    box-shadow: 0 0px 10px;
+    border-radius: 0%;
 }
 
 
@@ -88,6 +116,8 @@ h2 {
 .prj {
     background-color: #e27743;
     font-weight: bold;
+    box-shadow: 0 0px 10px;
+    border-radius: 0%;
 }
 
 
@@ -103,10 +133,14 @@ h2 {
 .tst {
     background-color: #e27743;
     font-weight: bold;
+    box-shadow: 0 0px 10px;
+    border-radius: 0%;
 }
 
 .cpics {
+    position: relative;
     width: 40%;
+    height: 40%;
     aspect-ratio: 1;
     object-fit: cover;
     border-radius: 50%;
@@ -134,6 +168,8 @@ h2 {
 .cnt {
     background-color: #e27743;
     font-weight: bold;
+    box-shadow: 0 0px 10px;
+    border-radius: 0%;
 }
 
 
